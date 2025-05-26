@@ -4,7 +4,7 @@ import requests
 import json
 
 API_URL = "https://waba-v2.360dialog.io/messages"
-API_TOKEN = "Bearer TU_TOKEN_DE_360DIALOG"
+API_TOKEN = "yxKGn4IO24k4MRONILaJxG7xAK"
 
 # Simulación de mensajes entrantes desde archivo local
 def cargar_mensajes():
