@@ -1,0 +1,22 @@
+[
+  {
+    "from": "+50241512068",
+    "message": "Hola, ¿qué tal?",
+    "direction": "in"
+  },
+  {
+    "from": "+50241512068",
+    "message": "Tengo una consulta",
+    "direction": "in"
+  },
+  {
+    "from": "+50241512068",
+    "message": "Gracias",
+    "direction": "in"
+  },
+  {
+    "from": "+50241512068",
+    "message": "Hola, bienvenido",
+    "direction": "out"
+  }
+]
