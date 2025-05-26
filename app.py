@@ -6,7 +6,7 @@ import json
 st.set_page_config(page_title="Bandeja WhatsApp", layout="centered")
 
 API_URL = "https://waba-v2.360dialog.io/messages"
-API_TOKEN = "Bearer yxKGn4IO24k4MRONILaJxG7xAK"
+API_TOKEN = "yxKGn4IO24k4MRONILaJxG7xAK"  # Tu API Key
 
 st.markdown("""
 <style>
@@ -56,7 +56,7 @@ if st.button("📤 Enviar"):
         "text": {"body": respuesta}
     }
     headers = {
-        "D360-API-KEY": API_TOKEN.replace("Bearer ", ""),
+        "D360-API-KEY": API_TOKEN,
         "Content-Type": "application/json"
     }
     r = requests.post(API_URL, headers=headers, json=payload)
